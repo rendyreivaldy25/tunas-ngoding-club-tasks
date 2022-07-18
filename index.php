@@ -5,7 +5,7 @@ Welcome <?php echo $_POST["name"]; ?><br>
 Your email address is: <?php echo $_POST["email"]; ?><br>
 
 <?php 
-$nama_awal =substr($_POST["name"],0,1);
+$nama_awal =strtolower(substr($_POST["name"],0,1));
 $arr1=['a','i','u','e','o'];
 switch ($nama_awal) {
     case in_array($nama_awal,$arr1):
