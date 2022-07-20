@@ -7,7 +7,7 @@ require 'tunas_ngoding_function.php';
     <title>Halaman Admin</title>
 </head>
 <body>
-<a href=<?= "add_user.php?id=".$row["id"]; ?>>Tambah Data</a>
+<a href= add_user.php>Tambah Data</a>
 <table border="1" cellpadding="10" cellspacing"=0">
     <tr>
         <td>No.</td>
