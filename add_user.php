@@ -17,7 +17,7 @@ if (isset($_POST["submit"])) {
         echo "
             <script>
                 alert('Data berhasil ditambahkan');
-                document.location.href = 'home.php';
+                document.location.href = 'index.php';
             </script>     
         ";
     }else{
@@ -25,7 +25,7 @@ if (isset($_POST["submit"])) {
         echo "
             <script>
                 alert('Data gagal ditambahkan');
-                document.location.href = 'home.php';
+                document.location.href = 'index.php';
             </script>     
         ";
     }
@@ -41,7 +41,7 @@ if (isset($_POST["submit"])) {
     <title>Add new Data</title>
 </head>
 <body>
-    <a href="home.php">Back</a>
+    <a href="index.php">Back</a>
     <h1>Tambah data baru</h1>
     <form action="" method="post">
         <ul>

@@ -22,7 +22,7 @@ require 'functions.php';
                 // set session
                 $_SESSION["login"] = true;
                 
-                header("Location: home.php");
+                header("Location: index.php");
                 exit;
             }   
         }

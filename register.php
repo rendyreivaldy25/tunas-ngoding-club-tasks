@@ -6,6 +6,7 @@
             echo "
                 <script> alert('User baru berhasil dibuat');</script>
             ";
+            header("Location: login.php");
         } else {
             echo mysqli_error($conn);
         }
