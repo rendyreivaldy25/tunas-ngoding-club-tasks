@@ -7,6 +7,7 @@ require 'tunas_ngoding_function.php';
     <title>Halaman Admin</title>
 </head>
 <body>
+<a href=<?= "add_user.php?id=".$row["id"]; ?>>Tambah Data</a>
 <table border="1" cellpadding="10" cellspacing"=0">
     <tr>
         <td>No.</td>
@@ -28,6 +29,7 @@ require 'tunas_ngoding_function.php';
         <td><?= $row["hobi"]; ?></td>
         <td>
            <a href=<?= "update.php?id=".$row["id"]; ?>>Edit</a>
+           <a href=<?= "delete.php?id=".$row["id"]; ?>>Hapus</a>
         </td>
     </tr>
     <?php $i++; ?>
